@@ -1,0 +1,15 @@
+.photography-container {
+    display: flex;
+}
+
+.photography-content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+}
+
+.photography-content a {
+    font-weight: 500;
+    margin-bottom: 10px;
+}

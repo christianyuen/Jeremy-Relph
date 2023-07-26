@@ -1,0 +1,69 @@
+.project-container {
+    display: flex;
+}
+
+.project-content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+}
+
+.project-content a {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+// DISTANCIA
+
+.distancia-wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px 20px;
+    overflow-x: hidden;
+}
+.distancia-content {
+    width: 100%;
+    margin-left: 230px;
+}
+
+.distancia-container {
+    display: flex;
+}
+
+#carousel-container {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+#carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+#carousel {
+    width: 500px;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+}
+
+.slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    width: 55vw;
+    margin-right: 10px;
+}
