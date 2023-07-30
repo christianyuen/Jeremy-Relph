@@ -5,12 +5,30 @@
 
 .writing-content h2 {
     font-weight: 400;
+    font-size: 0.9rem;
 }
+
+.writing-content .title {
+    font-size: 1rem;
+}
+
 
 .writing-content a {
     text-decoration: underline;
+    font-size: 0.9rem;
 }
 
 .writing-content .title {
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .writing-content {
+        padding-top: 50px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
 }

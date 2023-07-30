@@ -7,3 +7,21 @@
     padding-right: 200px;
     line-height: 1.2rem;
 }
+
+@media (max-width: 768px) {
+    .about-content {
+        padding-top: 50px;
+        margin-left: 0;
+    }
+    .about-content h2 {
+        text-align: center;
+    }
+    .about-content p {
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 576px) {
+
+}

@@ -21,9 +21,10 @@
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 30px 30px;
     overflow-x: hidden;
 }
+
 .distancia-content {
     width: 100%;
     margin-left: 230px;
@@ -66,4 +67,36 @@
 img {
     width: 55vw;
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    // PROJECT PAGE
+    .project-content {
+        margin: 0;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .project-container {
+        justify-content: center;
+    }
+
+    .project-content a {
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    // DISTANCIA
+    .distancia-content {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .distancia-content img {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 576px) {
+
 }

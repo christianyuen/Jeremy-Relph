@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    // NAV
+    .hamburger {
+        display: block;
+    }
+    .big-nav {
+        display: none;
+    }
+
+    .nav-title-mobile {
+        display: block;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    // HOME
+    .home-content {
+        margin-left: 0;
+    }
+    .collage {
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        padding: 30px 30px;
+    }
+
+    // .hamburger {
+    //     right: -8px;
+    // }
+
+    // #menu {
+    //     right: -12px;
+    // }
+}

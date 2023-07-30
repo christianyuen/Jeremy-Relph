@@ -12,14 +12,57 @@
 </head>
 <body>
     <div class="wrapper">
+
+            <!-- HAMBURGER -->
+    <nav class="hamburger" role="navigation">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <a href="./index.html"><li>Home</li></a>
+                <a href="./projects.html"><li>Projects</li></a>
+                <a href="./photography.html"><li>Photography</li></a>
+                <a href="./writing.html"><li>Writing</li></a>
+                <a href="./about.html"><li>About</li></a>
+                <a href="./contact.html"><li>Contact</li></a>
+                <a href="#"><li>Purchases</li></a>
+            </ul>
+            </div>
+        </nav>
+    <!-- END HAMBURGER -->
+
+        <!-- MOBILE HEADER -->
+        <div class="mobile-header">
+            <a href="./index.html"><img class="nav-title-mobile" src="./assets/jeremy-relph-title.png" alt="Jeremy Relph"></a>
+        </div>
+        <!-- END MOBILE HEADER -->
+
         <div class="home-container">
             <header>
-                <nav>
+                <nav class="big-nav">
                     <a href="./index.html"><img class="nav-title" src="./assets/jeremy-relph-title.png" alt="Jeremy Relph"></a>
                     <ul>
                         <li><a href="./projects.html">Projects</a></li>
                         <li><a href="./photography.html">Photography</a></li>
-                        <li><a href="#">Writing</a></li>
+                        <li><a href="./writing.html">Writing</a></li>
                         <li><a href="./about.html">About</a></li>
                         <li><a href="./contact.html">Contact</a></li>
                         <li><a href="#">Purchases</a></li>
@@ -32,8 +75,27 @@
                 <h2>Business Insider, October 30, 2014. <a href="https://www.businessinsider.com/murder-capital-san-pedro-sula-2014-10">DISPATCH FROM HONDURAS: What It’s Like To Live In The Murder Capital Of The World</a></h2>
                 <h2>Slate/Roads & Kingdoms, July 25, 2014. <a href="https://slate.com/news-and-politics/2014/07/honduras-killing-fields-violence-is-spreading-in-this-lawless-land.html">Honduras’ Killing Fields</a></h2>
                 <h2>New Yorker, December 2, 2013. <a href="http://www.newyorker.com/online/blogs/photobooth/2013/12/slide-show-a-contested-election-in-honduras.html?mobify=0#slide_ss_0=1">A Contested Election in Honduras</a></h2>
+                <h2>New Yorker, December 23, 2013. <a href="http://www.newyorker.com/project/portfolio/honduras-election">Honduras on the Eve of the Election</a></h2>
+                <h2>BuzzFeed, March 7, 2013. <a href="http://www.buzzfeed.com/jeremyrelph/growing-up-in-the-worlds-deadliest-city">Growing Up In The World’s Deadliest City</a></h2>
+                <h2>GOOD, Summer 2012. <a href="http://www.good.is/post/after-the-revolution/">After the Revolution</a></h2>
+                <h2>The Walrus, January/February 2012. <a href="http://www.walrusmagazine.com/articles/2012.01-field-note-his-share/">His Share</a></h2>
+                <h2>Toronto Star, November 28, 2011. <a href="http://www.thestar.com/news/world/article/1093847--bomb-kills-nurse-at-somali-hospital-for-famine-victims">Bomb kills nurse at Somali hospital for famine victims</a></h2>
+                <h2>Toronto Star, November 28, 2011. <a href="http://www.thestar.com/news/world/article/1061536--libyan-canadian-says-csis-questioned-him-in-libya">Libyan-Canadian says CSIS questioned him in Libya</a></h2>
+                <h2>Toronto Star, November 24, 2011. <a href="http://www.thestar.com/news/article/1059257">A lifelong crusade to bring down Gadhafi</a></h2>
+                <h2>Toronto Star, November 22, 2011. <a href="In one Libyan town, freedom isn’t easy">In one Libyan town, freedom isn't easy</a></h2>
+                <h2>Irin News, September 21, 2011. <a href="http://www.irinnews.org/photo/Default.aspx?id=31">Slideshow – Sub-Saharan migrants in Libya</a></h2>
+                <h2>Toronto Star, September 15, 2011. <a href="http://www.thestar.com/news/world/article/1054154--it-is-over-give-up-cameron-sarkozy-warn-gadhafi-loyalists-on-visit-to-tripoli">‘It is over. Give up.’ Cameron, Sarkozy warn Gadhafi loyalists on visit to Tripoli</a></h2>
+                <h2>Toronto Star, September 10, 2011. <a href="http://www.thestar.com/news/article/1052119">Rebels, NATO strike Gadhafi bastion</a></h2>
+                <h2>Toronto Star, September 9, 2011. <a href="http://www.thestar.com/news/article/1051573">Laying down arms in an uncertain Libyan future</a></h2>
+                <h2>Toronto Star, September 8, 2011. <a href="http://www.thestar.com/news/article/1051321">Libyan interim PM warns of in-fighting</a></h2>
+                <h2>Toronto Star, September 7, 2011. <a href="http://www.thestar.com/news/world/article/1050756--funeral-for-libyan-rebel-he-was-the-bravest">Funeral for Libyan rebel: ‘He was the bravest’</a></h2>
+                <h2>Toronto Star, September 6, 2011. <a href="http://www.thestar.com/news/article/1050116">Gunfire ends optimism over peace talks in Libyan town</a></h2>
+                <h2>Toronto Star, September 4, 2011. <a href="http://www.thestar.com/news/article/1049262">I shot people, I don’t know how many:’ Loyalists stick to Gadhafi</a></h2>
             </div>
         </div>
+        <footer>
+            <h3>Jeremy Relph <span>©</span> 2023</h3>
+        </footer>
     </div>
     <script src="./script.js"></script>
 </body>

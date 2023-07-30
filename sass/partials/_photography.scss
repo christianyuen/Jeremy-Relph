@@ -13,3 +13,22 @@
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .photography-container {
+        justify-content: center;
+    }
+    .photography-content {
+        margin-left: 0;
+        padding-top: 120px;
+    }
+    .photography-content a {
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+}
