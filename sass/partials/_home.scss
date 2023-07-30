@@ -14,7 +14,14 @@
 }
 
 @media (max-width: 768px) {
-    
+    // HOME
+    .home-content {
+        margin-left: 0;
+    }
+    .collage {
+        height: auto;
+        margin-top: 37px;
+    }
 }
 
 @media (max-width: 576px) {

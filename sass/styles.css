@@ -325,7 +325,7 @@ a:hover {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   right: 12px;
 }
 
@@ -460,6 +460,15 @@ a:hover {
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .home-content {
+    margin-left: 0;
+  }
+  .collage {
+    height: auto;
+    margin-top: 37px;
+  }
+}
 .contact-container {
   display: flex;
 }
