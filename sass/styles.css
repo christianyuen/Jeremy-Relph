@@ -809,7 +809,6 @@ img.hover-shadow {
 }
 
 .about-content p {
-  padding-right: 200px;
   line-height: 1.2rem;
 }
 
@@ -817,12 +816,6 @@ img.hover-shadow {
   .about-content {
     padding-top: 50px;
     margin-left: 0;
-  }
-  .about-content h2 {
-    padding: 0 30px;
-  }
-  .about-content p {
-    padding: 0 30px;
   }
 }
 .writing-content {
