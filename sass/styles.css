@@ -459,7 +459,7 @@ a:hover {
   height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .home-content {
     margin-left: 0;
   }
@@ -486,7 +486,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .contact-content {
     padding-top: 50px;
     margin-left: 0;
@@ -560,7 +560,7 @@ img {
   margin-right: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .project-content {
     margin: 0;
     text-align: center;
@@ -599,7 +599,7 @@ img {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .photography-container {
     justify-content: center;
   }
@@ -769,7 +769,7 @@ img.hover-shadow {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .portfolio-content {
     padding-top: 30px;
     margin-top: 0;
@@ -813,7 +813,7 @@ img.hover-shadow {
   line-height: 1.2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .about-content {
     padding-top: 50px;
     margin-left: 0;
@@ -822,7 +822,6 @@ img.hover-shadow {
     text-align: center;
   }
   .about-content p {
-    text-align: center;
     padding: 0 30px;
   }
 }
@@ -849,13 +848,13 @@ img.hover-shadow {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .writing-content {
     padding-top: 50px;
     margin-left: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hamburger {
     display: block;
   }
@@ -867,12 +866,6 @@ img.hover-shadow {
   }
   .mobile-header {
     display: block;
-  }
-  .home-content {
-    margin-left: 0;
-  }
-  .collage {
-    height: auto;
   }
 }
 @media (max-width: 576px) {
