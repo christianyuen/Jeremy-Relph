@@ -1,0 +1,30 @@
+.purchases-container {
+    display: flex;
+}
+
+.purchases-content {
+    padding-top: 50px;
+    margin-left: 230px;
+}
+
+.purchases-content p {
+    // font-size: 1rem;
+}
+
+.purchases-content a {
+    // color: blue;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .purchases-content {
+        padding-top: 50px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+}
+

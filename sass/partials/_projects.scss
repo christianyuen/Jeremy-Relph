@@ -16,7 +16,6 @@
 
 
 // DISTANCIA
-
 .distancia-wrapper {
     width: 100vw;
     height: 100vh;
@@ -44,8 +43,8 @@
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    margin-bottom: -8px;
 }
-
 
 #carousel-container::-webkit-scrollbar {
     display: none;
@@ -67,6 +66,27 @@
 img {
     width: 55vw;
     margin-right: 10px;
+}
+
+.distancia-video {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.distancia-content p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.distancia-content p:last-of-type {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+// EVERBLESSED
+.everblessed-video {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -94,6 +114,15 @@ img {
     }
     .distancia-content img {
         width: 90vw;
+    }
+
+    .distancia-video {
+        margin-top: 15px;
+    }
+
+    // EVERBLESSED
+    .everblessed-video {
+        margin-top: 15px;
     }
 }
 

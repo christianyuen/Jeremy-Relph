@@ -226,15 +226,15 @@ body {
 }
 
 a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Staatliches", cursive;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Staatliches", cursive;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Staatliches", cursive;
   font-size: 1rem;
   font-weight: Bold;
   margin: 0;
@@ -242,7 +242,7 @@ h2 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Staatliches", cursive;
   font-size: 0.9rem;
 }
 
@@ -251,6 +251,7 @@ p {
   height: 100dvh;
   margin: 0 auto;
   padding: 30px 30px;
+  overflow-x: hidden;
 }
 
 footer {
@@ -265,7 +266,7 @@ footer {
 footer h3 {
   font-weight: 400;
   font-size: 0.8rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Staatliches", cursive;
 }
 
 .hamburger {
@@ -536,6 +537,7 @@ a:hover {
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  margin-bottom: -8px;
 }
 
 #carousel-container::-webkit-scrollbar {
@@ -561,6 +563,26 @@ img {
   margin-right: 10px;
 }
 
+.distancia-video {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.distancia-content p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.distancia-content p:last-of-type {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.everblessed-video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1024px) {
   .project-content {
     margin: 0;
@@ -582,6 +604,12 @@ img {
   }
   .distancia-content img {
     width: 90vw;
+  }
+  .distancia-video {
+    margin-top: 15px;
+  }
+  .everblessed-video {
+    margin-top: 15px;
   }
 }
 .photography-container {
@@ -848,6 +876,26 @@ img.hover-shadow {
 
 @media (max-width: 1024px) {
   .writing-content {
+    padding-top: 50px;
+    margin-left: 0;
+  }
+}
+.purchases-container {
+  display: flex;
+}
+
+.purchases-content {
+  padding-top: 50px;
+  margin-left: 230px;
+}
+
+.purchases-content a {
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .purchases-content {
     padding-top: 50px;
     margin-left: 0;
   }

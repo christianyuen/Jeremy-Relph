@@ -3,15 +3,15 @@ body {
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
     font-size: 1rem;
     font-weight: Bold;
     margin: 0;
@@ -19,7 +19,8 @@ h2 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
     font-size: 0.9rem;
     // margin: 0;
 }
@@ -29,6 +30,7 @@ p {
     height: 100dvh;
     margin: 0 auto;
     padding: 30px 30px;
+    overflow-x: hidden;
 }
 
 footer {
@@ -43,7 +45,7 @@ footer {
 footer h3 {
     font-weight: 400;
     font-size: 0.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 .hamburger {
