@@ -1,4 +1,4 @@
-let slideIndex = 0;
+let slideIndex = Math.floor(Math.random() * 13);
 showSlides();
 
 function showSlides() {
@@ -10,5 +10,5 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 6000); // Change image every 6 seconds
+    setTimeout(showSlides, 9000); // Change image every 9 seconds
 } 

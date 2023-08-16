@@ -486,7 +486,7 @@ a:hover {
 
 @keyframes fade {
   from {
-    opacity: 0.7;
+    opacity: 0.6;
   }
   to {
     opacity: 1;
@@ -722,7 +722,16 @@ body {
   padding: 8px 8px;
 }
 
+.row > .col-2 {
+  padding: 8px 8px;
+}
+
 .col {
+  float: left;
+  width: 25%;
+}
+
+.col-2 {
   float: left;
   width: 25%;
 }
@@ -771,6 +780,7 @@ body {
 
 img.preview, img.modal-preview {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 img.active,
@@ -843,6 +853,10 @@ img.hover-shadow {
     float: left;
     width: 50%;
   }
+  .col-2 {
+    float: left;
+    width: 50%;
+  }
   .portfolio-wrapper {
     padding: 30px 10px;
   }
@@ -864,20 +878,55 @@ img.hover-shadow {
   .close {
     right: 10px;
   }
+  img.preview, img.modal-preview {
+    opacity: 1;
+  }
+}
+@media (max-width: 576px) {
+  .col-2 {
+    float: left;
+    width: 100%;
+  }
 }
 .about-content {
   padding-top: 50px;
   margin-left: 230px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-content p {
   line-height: 1.2rem;
 }
 
+.about-content img {
+  width: 100%;
+}
+
+.about-container-1 {
+  width: 50%;
+}
+
+.about-container-2 {
+  width: 46%;
+}
+
 @media (max-width: 1024px) {
   .about-content {
     padding-top: 50px;
     margin-left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-container-1 {
+    width: 100%;
+  }
+  .about-container-2 {
+    width: 100%;
+    padding-bottom: 50px;
   }
 }
 .writing-content {

@@ -46,7 +46,16 @@ body {
     padding: 8px 8px;
 }
 
+.row > .col-2 {
+    padding: 8px 8px;
+}
+
 .col {
+    float: left;
+    width: 25%;
+}
+
+.col-2 {
     float: left;
     width: 25%;
 }
@@ -95,6 +104,7 @@ body {
 
 img.preview, img.modal-preview {
     opacity: 0.6;
+    cursor: pointer;
 }
 
 img.active,
@@ -168,6 +178,11 @@ img.hover-shadow {
         width: 50%;
     }
 
+    .col-2 {
+        float: left;
+        width: 50%;
+    }
+
     .portfolio-wrapper {
         padding: 30px 10px;
     }
@@ -191,8 +206,16 @@ img.hover-shadow {
     .close {
         right: 10px;
     }
+
+    img.preview, img.modal-preview {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 576px) {
-    
+
+    .col-2 {
+        float: left;
+        width: 100%;
+    }
 }

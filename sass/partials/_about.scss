@@ -1,6 +1,8 @@
 .about-content {
     padding-top: 50px;
     margin-left: 230px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-content p {
@@ -8,20 +10,37 @@
     line-height: 1.2rem;
 }
 
+.about-content img {
+    width: 100%;
+}
+
+.about-container-1 {
+    width: 50%
+}
+
+.about-container-2 {
+    width: 46%;
+    // padding-left: 100px;
+}
+
 @media (max-width: 1024px) {
     .about-content {
         padding-top: 50px;
         margin-left: 0;
     }
-    .about-content h2 {
-        // text-align: center;
-        // padding: 0 30px;
-    }
-    .about-content p {
-        // padding: 0 30px;
-    }
 }
 
 @media (max-width: 576px) {
-
+    .about-content {
+        flex-direction: column;
+    }
+    .about-container-1 {
+        width: 100%
+    }
+    
+    .about-container-2 {
+        width: 100%;
+        padding-bottom: 50px;
+        // padding-left: 100px;
+    }
 }
