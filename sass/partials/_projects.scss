@@ -71,6 +71,7 @@ img {
 .distancia-video {
     margin: 0;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .distancia-content p {
@@ -78,9 +79,18 @@ img {
     margin-bottom: 10px;
 }
 
-.distancia-content p:last-of-type {
-    margin: 0;
-    margin-bottom: 20px;
+// .distancia-content p:last-of-type {
+//     margin: 0;
+//     margin-bottom: 20px;
+// }
+
+.view-project {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.view-project:hover {
+    color: blue;
 }
 
 // EVERBLESSED

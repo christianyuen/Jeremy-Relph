@@ -452,7 +452,7 @@ a:hover {
 }
 
 .home-content {
-  margin-left: 230px;
+  margin-left: 250px;
 }
 
 .collage {
@@ -461,13 +461,41 @@ a:hover {
   padding-bottom: 50px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  transition: all ease-in-out 0.5s;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @media (max-width: 1024px) {
   .home-content {
     margin-left: 0;
-  }
-  .collage {
-    height: auto;
-    margin-top: 37px;
+    margin-top: 45px;
   }
 }
 .contact-container {
@@ -566,6 +594,7 @@ img {
 .distancia-video {
   margin: 0;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .distancia-content p {
@@ -573,9 +602,13 @@ img {
   margin-bottom: 10px;
 }
 
-.distancia-content p:last-of-type {
-  margin: 0;
-  margin-bottom: 20px;
+.view-project {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.view-project:hover {
+  color: blue;
 }
 
 .everblessed-video {
