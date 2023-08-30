@@ -807,7 +807,8 @@ img.hover-shadow {
 }
 
 .close:hover,
-.close:focus {
+.close:focus,
+.close:active {
   color: #999;
   text-decoration: none;
   cursor: pointer;

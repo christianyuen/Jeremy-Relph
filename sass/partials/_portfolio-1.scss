@@ -131,7 +131,8 @@ img.hover-shadow {
 }
 
 .close:hover,
-.close:focus {
+.close:focus,
+.close:active {
     color: #999;
     text-decoration: none;
     cursor: pointer;
@@ -162,7 +163,6 @@ img.hover-shadow {
 
 .previous:hover,
 .next:hover {
-    // background-color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
     opacity: 1;
 }
